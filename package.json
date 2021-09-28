@@ -1,0 +1,19 @@
+{
+  "name": "Beta-Serverless",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js --port=5000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "fastify": "^3.21.6",
+    "figlet": "^1.5.2",
+    "pino-pretty": "^7.0.1",
+    "yargs": "^17.2.1"
+  }
+}
