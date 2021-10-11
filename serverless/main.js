@@ -3,7 +3,7 @@ const api = require("./serverless/services/register")
 routes.push({
     endpoint: "/api",
     action: api,
-    method: "post"
+    method: "get"
 })
 
 run(routes)

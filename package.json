@@ -6,6 +6,10 @@
   "scripts": {
     "start": "node index.js --port=5000"
   },
+  "bin": {
+    "beta": "./index.js"
+  },
+  "preferGlobal": true,
   "keywords": [],
   "author": "",
   "license": "ISC",
